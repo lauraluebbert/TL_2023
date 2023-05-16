@@ -1,0 +1,1 @@
+Analysis of data from [Colquitt BM, Merullo DP, Konopka G, Roberts TF, Brainard MS. Cellular transcriptomics reveals evolutionary identities of songbird vocal circuits. Science. 2021 Feb 12;371(6530):eabd9704. doi: 10.1126/science.abd9704. PMID: 33574185; PMCID: PMC8136249](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8136249/) for comparison.
