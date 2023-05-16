@@ -1,0 +1,17 @@
+﻿Dataset (short name),Species,Condition,Brain area,Replicate #,ScSeq Chemistry,Sequencer,Preprocessing tool,# of cells (after filtering),Sequencing depth (number of reads processed),"Reads mapped confidently to genome (%) (cellranger: ""Reads Mapped Confidently to Genome"")","Reads mapped confidently to transcriptome (%) (kb: ""p_pseudoaligned""; cellranger: ""Reads Mapped Confidently to Transcriptome"")",Mean UMI count per cell,Total UMI count
+C1,Taeniopygia guttata,GFP,HVC,1,10xv3,NovaSeq S4,kallisto bustools,9764,744473151,,50.7,1496.15,14608449
+C1,Taeniopygia guttata,GFP,HVC,1,10xv3,NovaSeq S4,"kallisto bustools --mm (GFP, tetx, and PEST added to ref)",9769,744473151,,50.7,1496.15,14610227
+C1,Taeniopygia guttata,GFP,HVC,1,10xv3,NovaSeq S4,"kallisto bustools unfiltered --mm (GFP, tetx, and PEST added to ref)",9762,744473151,,50.7,1580.85,15432288
+C1,Taeniopygia guttata,GFP,HVC,1,10xv3,NovaSeq S4,cellranger,5845,744473151,92.0,41.4,,
+C2,Taeniopygia guttata,GFP,HVC,2,10xv3,NovaSeq S4,kallisto bustools,6060,787232472,,45.7,1651.23,10006455
+C2,Taeniopygia guttata,GFP,HVC,2,10xv3,NovaSeq S4,"kallisto bustools --mm (GFP, tetx, and PEST added to ref)",6060,787232472,,45.7,1651.23,10006552
+C2,Taeniopygia guttata,GFP,HVC,2,10xv3,NovaSeq S4,"kallisto bustools unfiltered --mm (GFP, tetx, and PEST added to ref)",6047,787232472,,45.7,1747.64,10567974
+C2,Taeniopygia guttata,GFP,HVC,2,10xv3,NovaSeq S4,cellranger,4566,787232472,92.6,36.2,,
+E1,Taeniopygia guttata,GFP + tetX,HVC,1,10xv3,NovaSeq S4,kallisto bustools,7707,867768600,,51.9,1747.60,13468728
+E1,Taeniopygia guttata,GFP + tetX,HVC,1,10xv3,NovaSeq S4,"kallisto bustools --mm (GFP, tetx, and PEST added to ref)",7707,867768600,,51.9,1747.60,13468725
+E1,Taeniopygia guttata,GFP + tetX,HVC,1,10xv3,NovaSeq S4,"kallisto bustools unfiltered --mm (GFP, tetx, and PEST added to ref)",7706,867768600,,51.9,1852.42,14274760
+E1,Taeniopygia guttata,GFP + tetX,HVC,1,10xv3,NovaSeq S4,cellranger,6224,867768600,91.7,41.9,,
+E2,Taeniopygia guttata,GFP + tetX,HVC,2,10xv3,NovaSeq S4,kallisto bustools,12306,810253355,,57.4,2146.11,26410052
+E2,Taeniopygia guttata,GFP + tetX,HVC,2,10xv3,NovaSeq S4,"kallisto bustools --mm (GFP, tetx, and PEST added to ref)",12306,810253355,,57.4,2146.11,26410052
+E2,Taeniopygia guttata,GFP + tetX,HVC,2,10xv3,NovaSeq S4,"kallisto bustools unfiltered --mm (GFP, tetx, and PEST added to ref)",12288,810253355,,57.4,2265.43,27837554
+E2,Taeniopygia guttata,GFP + tetX,HVC,2,10xv3,NovaSeq S4,cellranger,9997,810253355,90.2,47.3,,
